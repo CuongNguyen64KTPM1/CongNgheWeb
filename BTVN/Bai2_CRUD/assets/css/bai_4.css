@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content:center ;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    
+}
+ h2 {
+    border-bottom: 2px solid #333;
+    width: 95%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#main{
+    border: 5px solid #9b9b9b;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#basic_info ,#contact_info{
+    margin-top: 50px;
+   
+    width: 850px;
+ 
+}
+th{
+    text-align:left;
+    padding: 0px ;
+    padding-left: 50px;
+    font-size: 15px;
+ 
+}
+h3{ 
+   margin: 10px 0px; 
+}
+.checkbox_gender{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    width: 156px;
+}
+.width_textbox{
+    width: 477px;
+
+}
+
+.ckeditor{
+   max-width: 500px; 
+   min-height: 100px;
+}
+.prefered{
+    display: flex;
+    flex-direction: column;
+}
+.prefered_check{
+    margin-top: 5px;
+    font-weight: 550;
+}
+.prefered_check input{
+    margin-right: 5px;
+}
+.thanhcuoi-trai i{
+background-color: black;
+color: aliceblue;
+width: 20px;
+text-align: center;
+}
+.thanhcuoi-trai i:hover{
+    background-color: red;
+}
+.button {
+    display: flex;
+    background-color: #333;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: aliceblue;
+}
+.button i{
+    margin-right: 5px;
+    
+}
+.button:hover{
+    background-color: red;
+}
+.thanhcuoi-phai{
+    display: flex;
+}
+.thanhcuoi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin:  0px 20px 1px 30px;
+}
+.required{
+    margin:  0px 25px 10px 30px;
+}
